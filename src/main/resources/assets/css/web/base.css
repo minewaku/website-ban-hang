@@ -1,0 +1,41 @@
+:root {
+    --white-color: white;
+    --black-color: black;
+    --text-primary-color: #515E79;
+    --text-secondary-color: #8A93AA;
+    --primary-color: #7589F9;
+    --secondary-color: #77DDD2;
+    --shadow-color: #EFF1F4;
+    --price-color: #FB7373;
+
+}
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+ul {
+    margin: 0;
+}
+
+.wrapper {
+    width: fit-content;
+    height: fit-content;
+}
+
+.btn--wrapper {
+    width: fit-content;
+    height: fit-content;
+}

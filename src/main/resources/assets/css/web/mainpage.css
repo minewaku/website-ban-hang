@@ -1,0 +1,145 @@
+.body__top {
+
+}
+
+
+.catagory {
+    border-radius: 12px 0 0 12px;
+    height: 580px;
+    /* background-color: #f3f6fd; */
+    background-color: var(--text-primary-color);
+    /* background-color: #DAEDF8; */
+    /* background-color: #414f6b; */
+    /* border: 3px solid var(--secondary-color); */
+}
+
+.catagory__list {
+
+}
+
+.catagogy__list-title {
+    color: var(--text-primary-color);
+    color: var(--shadow-color);
+}
+
+.catagory__list-item {
+    
+}
+
+.catagory__item-icon {
+    color: var(--text-primary-color);
+    color: var(--shadow-color);
+}
+
+.catagory__item-title {
+    color: var(--text-primary-color);
+    color: var(--shadow-color);
+}
+
+.catagory__list-button {
+
+}
+
+.more--btn {
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 8px;
+}
+
+.banner {
+    height: 580px;
+    overflow: hidden;
+    border-radius: 0px 16px 16px 0px;
+}
+
+.banner__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0px 16px 16px 0px;
+}
+
+.body__product {
+    /* box-shadow: 0 0 4px #dadada; */
+    border-radius: 12px 12px 12px 12px;
+    background-color: #f3f6fd;
+}
+
+.body__product-title {
+    border-radius: 12px 12px 0px 0px;
+    font-size: 24px;
+}
+
+.bestsell {
+    color: var(--white-color);
+    background-color: var(--price-color);
+}
+
+.bycatagory {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.body__product-list {
+
+}
+
+.product__list-item {
+    border-radius: 12px;
+}
+
+.product__list-item:hover {
+    background-color: var(--white-color);
+    box-shadow: 0 0 4px #dadada;
+}
+
+.product__img {
+    height: 300px;
+    overflow: hidden;
+}
+
+.product__img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.product__details {
+
+}
+
+.product__name {
+    font-size: 20px;
+    color: var(--text-primary-color);
+    height: 60px;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product__info {
+
+}
+
+.product__sold {
+    font-size: 14px;
+    color: var(--text-primary-color);
+}
+
+.product__price {
+    color: var(--price-color);
+}
+
+.body__more {
+    border-radius: 0px 0px 12px 12px;
+}
+
+.body__more--btn {
+    width: fit-content;
+    height: fit-content;
+    border: none; 
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    border-radius: 8px;
+}
