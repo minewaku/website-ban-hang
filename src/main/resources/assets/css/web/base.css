@@ -5,6 +5,8 @@
     --text-secondary-color: #8A93AA;
     --primary-color: #7589F9;
     --secondary-color: #77DDD2;
+    --secondary-color: #5eddc0;
+    --cart-color: #ffd31c;
     --shadow-color: #EFF1F4;
     --price-color: #FB7373;
 
@@ -12,6 +14,7 @@
 
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 a {
@@ -38,4 +41,39 @@ ul {
 .btn--wrapper {
     width: fit-content;
     height: fit-content;
+}
+
+/* paginaiton */
+
+.pagination {
+    width: fit-content;
+}
+
+.page-item {
+    background-color: var(--primary-color);
+    border: 1px solid var(--shadow-color);
+    border-radius: 4px;
+    height: 36px;
+    width: 36px;
+}
+
+.page-item:hover {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.page--link {
+    color: var(--white-color);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.active {
+    background-color: var(--secondary-color);
+}
+
+.disabled {
+    display: none !important;
 }

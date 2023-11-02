@@ -56,9 +56,9 @@
 .user__option:after {
     content: "";
     width: 200px;
-    height: 40px; 
+    height: 20px; 
     position: absolute;
-    top: -24px;
+    top: -20px;
 }
 
 .user__option-item {
@@ -156,6 +156,10 @@
     font-weight: bold;
 }
 
+.cart__List-body {
+
+}
+
 .cart__list-item {
 
 }
@@ -204,6 +208,32 @@
     overflow: hidden;
     text-overflow: ellipsis;
     color: var(--price-color);
+}
+
+.cart__list-footer {
+
+}
+
+.cart__list-info {
+
+}
+
+.cart__list-total {
+    color: var(--price-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cart__list-left {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--text-secondary-color);
+}
+
+.cart__list-button {
+    background-color: var(--cart-color);
+    color: var(--text-primary-color);
+    font-weight: bold;
 }
 
 .subheader {
