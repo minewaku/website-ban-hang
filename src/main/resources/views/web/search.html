@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/src/main/resources/assets/css/web/base.css">
     <link rel="stylesheet" href="/src/main/resources/assets/css/web/header.css">
     <link rel="stylesheet" href="/src/main/resources/assets/css/web/footer.css">
-    <link rel="stylesheet" href="/src/main/resources/assets/css/web/cart.css">
+    <link rel="stylesheet" href="/src/main/resources/assets/css/web/search.css">
 
     <title>Document</title>
 </head>
@@ -184,212 +184,192 @@
         <div class="body">
             <div class="container">
                 <div class="row mt-5">
-                    <div class="body__title py-4 text-center">
-                        <span>Cart</span>
+                    <div class="result text-center py-3">
+                        There are 1138 search results. 
                     </div>
                 </div>
 
-                <div class="row d-flex justify-content-center">
-                    <div class="col-12 col-xl-8">
-                        <ul class="body__cart-list p-0">
-
-                            <li class="body__cart-item d-flex align-items-center px-3 py-3">
-                                <div class="deletion ps-3 pe-5 text-center">
-                                    <i class="fa-regular fa-circle-xmark"></i>
+                <ul class="product__list row">
+                    <li class="product__list-item col-12 col-md-6 col-lg-4 col-xl-3 pt-3">
+                        <div class="wrapper">
+                            <a href="">
+                                <div class="product__img">
+                                    <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
                                 </div>
 
-                                <a href="" class="item__info d-flex">
-                                    <div class="item__img me-3">
-                                        <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
-                                    </div>
-
-                                    <div class="item__name">Product's name</div>
-                                </a>
-
-                                <div class="d-flex align-items-center">
-                                    <div class="item__price me-4">12000 &#8363;</div>
-
-                                    <div class="selection d-flex align-items-center">
-                                        <div class="quantity--btn px-3 py-1">
-                                            <i class="fa-solid fa-plus"></i>
-                                        </div>
-
-                                        <input type="text" value="1" class="mx-2 text-center">
-
-                                        <div class="quantity--btn px-3 py-1">
-                                            <i class="fa-solid fa-minus"></i>
-                                        </div>
+                                <div class="product__details p-2">
+                                    <div class="product__name mb-2">Product's name</div>
+                                    <div class="product__info d-flex justify-content-between align-items-center">
+                                        <div class="product__price fw-bold"><span>1000000</span> &#8363;</div>
+                                        <div class="product__sold fw-bold">sold: <span>12</span></div>
                                     </div>
                                 </div>
-                            </li>
-
-                            <li class="body__cart-item d-flex align-items-center px-3 py-3">
-                                <div class="deletion ps-3 pe-5 text-center">
-                                    <i class="fa-regular fa-circle-xmark"></i>
-                                </div>
-
-                                <a href="" class="item__info d-flex">
-                                    <div class="item__img me-3">
-                                        <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
-                                    </div>
-
-                                    <div class="item__name">Product's name</div>
-                                </a>
-
-                                <div class="d-flex align-items-center">
-                                    <div class="item__price me-4">12000 &#8363;</div>
-
-                                    <div class="selection d-flex align-items-center">
-                                        <div class="quantity--btn px-3 py-1">
-                                            <i class="fa-solid fa-plus"></i>
-                                        </div>
-
-                                        <input type="text" value="1" class="mx-2 text-center">
-
-                                        <div class="quantity--btn px-3 py-1">
-                                            <i class="fa-solid fa-minus"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="body__cart-item d-flex align-items-center px-3 py-3">
-                                <div class="deletion ps-3 pe-5 text-center">
-                                    <i class="fa-regular fa-circle-xmark"></i>
-                                </div>
-
-                                <a href="" class="item__info d-flex">
-                                    <div class="item__img me-3">
-                                        <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
-                                    </div>
-
-                                    <div class="item__name">Product's name</div>
-                                </a>
-
-                                <div class="d-flex align-items-center">
-                                    <div class="item__price me-4">12000 &#8363;</div>
-
-                                    <div class="selection d-flex align-items-center">
-                                        <div class="quantity--btn px-3 py-1">
-                                            <i class="fa-solid fa-plus"></i>
-                                        </div>
-
-                                        <input type="text" value="1" class="mx-2 text-center">
-
-                                        <div class="quantity--btn px-3 py-1">
-                                            <i class="fa-solid fa-minus"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="body__cart-item d-flex align-items-center px-3 py-3">
-                                <div class="deletion ps-3 pe-5 text-center">
-                                    <i class="fa-regular fa-circle-xmark"></i>
-                                </div>
-
-                                <a href="" class="item__info d-flex">
-                                    <div class="item__img me-3">
-                                        <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
-                                    </div>
-
-                                    <div class="item__name">Product's name</div>
-                                </a>
-
-                                <div class="d-flex align-items-center">
-                                    <div class="item__price me-4">12000 &#8363;</div>
-
-                                    <div class="selection d-flex align-items-center">
-                                        <div class="quantity--btn px-3 py-1">
-                                            <i class="fa-solid fa-plus"></i>
-                                        </div>
-
-                                        <input type="text" value="1" class="mx-2 text-center">
-
-                                        <div class="quantity--btn px-3 py-1">
-                                            <i class="fa-solid fa-minus"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="body__cart-item d-flex align-items-center px-3 py-3">
-                                <div class="deletion ps-3 pe-5 text-center">
-                                    <i class="fa-regular fa-circle-xmark"></i>
-                                </div>
-
-                                <a href="" class="item__info d-flex">
-                                    <div class="item__img me-3">
-                                        <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
-                                    </div>
-
-                                    <div class="item__name">Product's name</div>
-                                </a>
-
-                                <div class="d-flex align-items-center">
-                                    <div class="item__price me-4">12000 &#8363;</div>
-
-                                    <div class="selection d-flex align-items-center">
-                                        <div class="quantity--btn px-3 py-1">
-                                            <i class="fa-solid fa-plus"></i>
-                                        </div>
-
-                                        <input type="text" value="1" class="mx-2 text-center">
-
-                                        <div class="quantity--btn px-3 py-1">
-                                            <i class="fa-solid fa-minus"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-    
-                        </ul>
-                    </div>
-
-                    <div class="body__cart-info col-12 col-xl-4 mt-xl-0 mt-5">
-                        <div class="wrapper w-xl-0 w-100">
-                            <div class="user__title py-3 text-center">Order</div>
-    
-                            <div class="user__info d-flex px-2">
-
-                                <div class="user__label me-2">
-                                    <div class="user__label-item py-1">Username: </div>
-                                    <div class="user__label-item py-1">Phone: </div>
-                                    <div class="user__label-item py-1">Address: </div>
-                                </div>
-
-                                <div class="user__value">
-                                    <div class="user__value-item py-1">Dung</div>
-                                    <div class="user__value-item py-1">3121410109</div>
-                                    <div class="user__value-item py-1">273 An Dương Vương – Phường 3 – Quận 5 ABCXYZ</div>
-                                </div>
-
-                                <!-- <div class="user__item d-flex py-1">
-                                    <div class="user__item-label me-2">Username: </div>
-                                    <div class="user__item-value">Dung</div>
-                                </div>
-        
-                                <div class="user__item d-flex py-1">
-                                    <div class="user__item-label me-2">Phone: </div>
-                                    <div class="user__item-value">3121410109</div>
-                                </div>
-    
-                                <div class="user__item d-flex py-1">
-                                    <div class="user__item-label me-2">Address: </div>
-                                    <div class="user__item-value">273 An Dương Vương – Phường 3 – Quận 5</div>
-                                </div> -->
-                            </div>
-    
-                            <div class="user__total d-flex justify-content-between align-items-center px-2 py-3">
-                                <div>Total</div>
-                                <div class="total-value">12000 &#8363;</div>
-                            </div>
-    
-                            <div class="user__checkout p-2 text-center">
-                                <div class="checkout--btn py-2">Order</div>
-                            </div>
+                            </a>
                         </div>
-                    </div>
+                    </li>
+
+                    <li class="product__list-item col-12 col-md-6 col-lg-4 col-xl-3 pt-3">
+                        <div class="wrapper">
+                            <a href="">
+                                <div class="product__img">
+                                    <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
+                                </div>
+
+                                <div class="product__details p-2">
+                                    <div class="product__name mb-2">Product's name</div>
+                                    <div class="product__info d-flex justify-content-between align-items-center">
+                                        <div class="product__price fw-bold"><span>1000000</span> &#8363;</div>
+                                        <div class="product__sold fw-bold">sold: <span>12</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="product__list-item col-12 col-md-6 col-lg-4 col-xl-3 pt-3">
+                        <div class="wrapper">
+                            <a href="">
+                                <div class="product__img">
+                                    <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
+                                </div>
+
+                                <div class="product__details p-2">
+                                    <div class="product__name mb-2">Product's name</div>
+                                    <div class="product__info d-flex justify-content-between align-items-center">
+                                        <div class="product__price fw-bold"><span>1000000</span> &#8363;</div>
+                                        <div class="product__sold fw-bold">sold: <span>12</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="product__list-item col-12 col-md-6 col-lg-4 col-xl-3 pt-3">
+                        <div class="wrapper">
+                            <a href="">
+                                <div class="product__img">
+                                    <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
+                                </div>
+
+                                <div class="product__details p-2">
+                                    <div class="product__name mb-2">Product's name</div>
+                                    <div class="product__info d-flex justify-content-between align-items-center">
+                                        <div class="product__price fw-bold"><span>1000000</span> &#8363;</div>
+                                        <div class="product__sold fw-bold">sold: <span>12</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="product__list-item col-12 col-md-6 col-lg-4 col-xl-3 pt-3">
+                        <div class="wrapper">
+                            <a href="">
+                                <div class="product__img">
+                                    <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
+                                </div>
+
+                                <div class="product__details p-2">
+                                    <div class="product__name mb-2">Product's name</div>
+                                    <div class="product__info d-flex justify-content-between align-items-center">
+                                        <div class="product__price fw-bold"><span>1000000</span> &#8363;</div>
+                                        <div class="product__sold fw-bold">sold: <span>12</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="product__list-item col-12 col-md-6 col-lg-4 col-xl-3 pt-3">
+                        <div class="wrapper">
+                            <a href="">
+                                <div class="product__img">
+                                    <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
+                                </div>
+
+                                <div class="product__details p-2">
+                                    <div class="product__name mb-2">Product's name</div>
+                                    <div class="product__info d-flex justify-content-between align-items-center">
+                                        <div class="product__price fw-bold"><span>1000000</span> &#8363;</div>
+                                        <div class="product__sold fw-bold">sold: <span>12</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="product__list-item col-12 col-md-6 col-lg-4 col-xl-3 pt-3">
+                        <div class="wrapper">
+                            <a href="">
+                                <div class="product__img">
+                                    <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
+                                </div>
+
+                                <div class="product__details p-2">
+                                    <div class="product__name mb-2">Product's name</div>
+                                    <div class="product__info d-flex justify-content-between align-items-center">
+                                        <div class="product__price fw-bold"><span>1000000</span> &#8363;</div>
+                                        <div class="product__sold fw-bold">sold: <span>12</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="product__list-item col-12 col-md-6 col-lg-4 col-xl-3 pt-3">
+                        <div class="wrapper">
+                            <a href="">
+                                <div class="product__img">
+                                    <img src="/src/main/resources/assets/img/679UR-Nakasu-Kasumi-Which-One-s-Cuter-Fancy-Pixie-J6Slal.png" alt="">
+                                </div>
+
+                                <div class="product__details p-2">
+                                    <div class="product__name mb-2">Product's name</div>
+                                    <div class="product__info d-flex justify-content-between align-items-center">
+                                        <div class="product__price fw-bold"><span>1000000</span> &#8363;</div>
+                                        <div class="product__sold fw-bold">sold: <span>12</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- page-item co class="disable" de an -->
+                <div class="row d-flex justify-content-center align-items-center pt-5">
+                    <ul class="pagination p-0">
+                        <li class="page-item d-flex justify-content-center align-items-center me-3" id="arrow--left">
+                            <a href="" class="page--link">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                        </li>
+
+                        <li class="page-item active d-flex justify-content-center align-items-center me-3">
+                            <a href="" class="page--link">1</a>
+                        </li>
+
+                        <li class="page-item d-flex justify-content-center align-items-center me-3">
+                            <a href="" class="page--link">2</a>
+                        </li>
+
+                        <li class="page-item d-flex justify-content-center align-items-center me-3">
+                            <a href="" class="page--link">3</a>
+                        </li>
+
+                        <li class="page-item d-flex justify-content-center align-items-center me-3">
+                            <a href="" class="page--link">...</a>
+                        </li>
+
+                        <li class="page-item d-flex justify-content-center align-items-center me-3">
+                            <a href="" class="page--link">10</a>
+                        </li>
+
+                        <li class="page-item d-flex justify-content-center align-items-center me-3" id="arrow--right">
+                            <a href="" class="page--link">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

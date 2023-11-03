@@ -1,0 +1,46 @@
+.header {
+    background-color: var(--primary-color);
+
+}
+
+.header__logo {
+
+}
+
+.header__logo--img {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--white-color);
+}
+
+
+.header__item {
+
+}
+
+.header__item-name {
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.user {
+    
+}
+
+.header__item-avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 3px solid var(--white-color);
+    overflow: hidden;
+}
+
+.header__item-avatar--img {
+    height: 100%;
+    object-fit: cover;
+}

@@ -14,6 +14,7 @@
 
 .active {
     border-bottom: 4px solid var(--price-color);
+    background-color: var(--white-color);
 }
 
 .login-form {
